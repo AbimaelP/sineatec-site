@@ -2,19 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 224, 212, 255;
+  --background-start-rgb: 253, 238, 254;
+  --background-end-rgb: 253, 238, 254;
+  --input-color-default: #E0D4FF;
+  --btn-hover-default: #7950e5;
+  --default-place-color: #645C5C;
+  --default-text-color: #414040;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
 
 body {
   color: rgb(var(--foreground-rgb));
@@ -24,4 +22,13 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+html, body {
+  height: 100vh;
+}
+
+input {
+  background-color: var(--input-color-default);
+  color: var(--default-text-color);
 }
