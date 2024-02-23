@@ -4,24 +4,21 @@
 
 
 :root {
-  --foreground-rgb: 224, 212, 255;
+  --color-base: 224, 212, 255;
   --background-start-rgb: 253, 238, 254;
-  --background-end-rgb: 253, 238, 254;
+  --background-end-hex: #ffff;
   --input-color-default: #E0D4FF;
   --btn-hover-default: #7950e5;
+  --base-color-default: #AB94EC;
+  
   --default-place-color: #645C5C;
   --default-text-color: #414040;
 }
 
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: rgb(var(--color-base));
+  background: linear-gradient(45deg, #000000 0%, #1a1a1a 84%);
 }
 
 html, body {
