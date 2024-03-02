@@ -4,7 +4,7 @@
 
 
 :root {
-  --color-base: 224, 212, 255;
+  --color-base: rgb(193, 185, 214);
   --background-start-rgb: 253, 238, 254;
   --background-end-hex: #ffff;
   --input-color-default: #E0D4FF;
@@ -17,7 +17,7 @@
 
 
 body {
-  color: rgb(var(--color-base));
+  color: var(--color-base);
   background: linear-gradient(45deg, #000000 0%, #1a1a1a 84%);
 }
 
@@ -28,4 +28,9 @@ html, body {
 input {
   background-color: var(--input-color-default);
   color: var(--default-text-color);
+}
+
+.btn-navigate:hover {
+  cursor: pointer;
+  border-bottom: 2px solid;
 }

@@ -12,9 +12,10 @@ export default function Navbar(){
     return (
         <Layout className="fixed right-0 top-10">
             <Layout className="flex items-center m-2">
-                <Button type="button" className={`mr-8 text-xl ${roboto.className}`}>Home</Button>
-                <Button type="button" className={`mr-8 text-xl ${roboto.className}`}>Services</Button>
-                <Button type="button" className={`mr-8 text-xl ${roboto.className}`}>Projects</Button>
+                <Button type="button" className={`btn-navigate mr-8 text-xl ${roboto.className}`}>Home</Button>
+                <Button type="button" className={`btn-navigate mr-8 text-xl ${roboto.className}`}>Services</Button>
+                <Button type="button" className={`btn-navigate mr-8 text-xl ${roboto.className}`}>Projects</Button>
+                <Button type="button" className={`btn-navigate mr-8 text-xl ${roboto.className}`}>Contact</Button>
             </Layout>
         </Layout>
     )
