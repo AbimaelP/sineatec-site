@@ -34,3 +34,12 @@ input {
   cursor: pointer;
   border-bottom: 2px solid;
 }
+
+.image_main {
+  background: linear-gradient(0deg, #6a8aff, transparent);
+}
+
+.image_main img {
+  width: auto;
+  height: 245px;
+}

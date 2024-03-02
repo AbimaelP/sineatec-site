@@ -5,12 +5,11 @@ import Layout from '@/components/LayoutContainer'
 export default function Home() {
   return (
     <main>
-      <Layout className='relative'>
+      <Layout className='relative image_main'>
         <Image
-          src="/assets/imgs/parallax-01.png"
-          width={3256}
+          src="/assets/imgs/tec.png"
+          width={400}
           height={400}
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
 
           alt="Picture of the author"
         />
